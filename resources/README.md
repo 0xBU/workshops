@@ -1,4 +1,3 @@
-
 # README
 ## Learning
 There's so much to learn. A search engine is the best teacher right now. Between wargames, CTFs, online resources, the amount to learn is far too vast to even describe here. However, with time, dedication, and effort, becoming an expert can be fun :smile:.
@@ -11,6 +10,7 @@ There's some resources in this repo, that will be updated as time goes on, but f
 This section will be updated as time progresses. For now, here's some links to self learn from:
 
 * [A brief intro book to modern offensive security](https://trailofbits.github.io/ctf/index.html)
+* [RPISec Modern Binary Exploitation Course](https://github.com/RPISEC/MBE)
 * [NYU's own Hack Night](https://github.com/isislab/Hack-Night)
 * [Russian CTF Course](https://github.com/xairy/mipt-ctf) - Use Google Translate
 * [Exploit Development](http://expdev-kiuhnm.rhcloud.com/)
@@ -51,4 +51,6 @@ These are the most fun, but most challenging:
 
 * [Pwnable.kr](http://pwnable.kr/?p=main)
 * [Crypto Challenges](http://cryptopals.com/)
+* [Reversing.kr](http://reversing.kr/index.php)
+* [CrackMes](http://crackmes.de/)
 * [Reverse Engineering Challenges](http://challenges.re/)
