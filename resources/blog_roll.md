@@ -47,3 +47,16 @@ Some include descriptions, some are too ubiquitous to describe.
 * [Exploit DB](https://www.exploit-db.com/) - Exploit news w/ proof-of-concepts to learn from
 * [SecLists](http://seclists.org) - First to the security scoop, mail lists
 * [phrack](http://www.phrack.org/) - Still active security magazine
+
+
+## Twitter
+* [beist](https://twitter.com/beist)
+* [ErrataRob](https://twitter.com/ErrataRob)
+* [PlaidCTF](https://twitter.com/PlaidCTF)
+* [j00ru](https://twitter.com/j00ru)
+* [lcamtuf](https://twitter.com/lcamtuf)
+* [SwiftOnSecurity](https://twitter.com/SwiftOnSecurity)
+* [Brian Krebs](https://twitter.com/briankrebs)
+* [Bruce Schneier](https://twitter.com/schneierblog)
+* [Jeff Crowell](https://twitter.com/jeffreycrowell)
+* [Dino Dai Zovi](https://twitter.com/dinodaizovi)
