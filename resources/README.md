@@ -21,10 +21,10 @@ If you make it through half of those links, you're now smarter than 50% of engin
 
 ## Getting help
 [IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat) is an invaluable source for learning, getting help, and meeting smart people. Most relevant open source software has a channel, or a presence in some channel. If you're new to IRC, a quick start is to just download [Quassel](http://www.quassel-irc.org/), there's a server, client, and all-in-one package for most operating systems. You probably want the all-in-one, left as an exercise to the reader in downloading and installing software.
+ha
+There's a lot of servers out there, but the most active public one is `irc.freenode.net`. **0xBU's own channel on there is `#0xBU`.**
 
-There's a lot of servers out there, but the most active public one is `irc.freenode.net`. **Hack Night's own channel on there is `#buhacknight`.**
-
-Once you connect to `irc.freenode.net`, you can join it with `/join #buhacknight`, or through some GUI pressing.
+Once you connect to `irc.freenode.net`, you can join it with `/join #0xBU`, or through some GUI pressing.
 
 ### IRC Channels
 Everything on this list is on freenode.
