@@ -1,5 +1,7 @@
 # main
-* `resources` - has stuff made by us to learn from
+
+* `resources` - Some general stuff. Where to learn things, how to get into security, etc.
+* `week*` - Material made during that week.
 
 The other repos in this organization are useful as well.
 
