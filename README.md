@@ -15,3 +15,6 @@ Workshops in chronological order:
 The other repos in this organization are useful as well.
 * `0xBU/ctfs` - has releases of old CTFs to play and learn from
  
+## Contact
+Eugene Kolo  
+eugene`at`eugenekolo`dot`com
