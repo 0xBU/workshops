@@ -56,7 +56,7 @@ sets the compiled program name to "program"
 2. find the program that has a buffer overflow vulnerability
 3. run gdb on the program with the vulnerability
     * do you notice anything strange or out of the ordinary? 
-    * are able to notice any logic that may be overwrittent? (there should be!!)
+    * are able to notice any logic that may be overwritten? (there should be!!)
 4. find a suitable string to enter, that once inputted allows you to take over the flow of execution of the program
 5. once you have found your flag, hash it with sha256 and check if it equals:
 ef05b98c5c0b1a2b7e9312b9d4d87d3ceddfded2093a4b036d324df621aa1557
