@@ -22,7 +22,7 @@ The reason we disable stack canaries is that we are overwriting the return addre
 One way to bypass this is through memcpy. If the stack buffer is overwritten during memcpy, then the check of the canary is simply bypassed and the program will go to the default exception handler ... which can also be overwritten. 
 
 ### -z execstack
--z sets the stack executability parameters, we have set stack execution on. There are ret2libc attacks that you can leverage when this is off. Find out more (here)[https://blog.techorganic.com/2015/04/21/64-bit-linux-stack-smashing-tutorial-part-2/]
+-z sets the stack executability parameters, we have set stack execution on. There are ret2libc attacks that you can leverage when this is off. Find out more [here](https://blog.techorganic.com/2015/04/21/64-bit-linux-stack-smashing-tutorial-part-2/)
 
 ### ASLR (Address Space Layout Randomization)
 You do not need to stop randomization of your address space, as many other tutorials on stack smashing suggest. Instead, we will be using gdb, which automatically turns off ASLR(address space layout randomization). This is important because, in order to jump in your code, you need to have a predictable place to jump, With randomization turned on, your jumping places are randomized, making this impossible. GDB automatically turns this off on execution of a program.
