@@ -1,8 +1,6 @@
 # Welcome to the Stack Smashing Tutorial
 
 ## Background
-*** 
-
 *DO NOT LOOK AT SOLUTION.PY UNTIL YOU HAVE COMPLETED THE STACK SMASHING, doing so is cheating*
 solution.py is how we generated the many compiled c files and is not part of the solution.
 
@@ -10,7 +8,7 @@ We compiled all the C files like so:
 gcc -fno-stack-protector -z execstack -g -m32 -o program program.c
 
 
-###-fno-stack-protector disables stack canaries 
+### -fno-stack-protector disables stack canaries 
 Stack | Address
 :-- | --:
 local variables | 0x00000000
@@ -48,7 +46,6 @@ Compiles the program for 32-bit machines, simply makes everything a little easie
 sets the compiled program name to "program"
 
 ## Getting Started
-***
 1. Git clone this repository
 ``git clone REPOLINK``
 2. find the program that has a buffer overflow vulnerability
@@ -59,31 +56,3 @@ sets the compiled program name to "program"
 5. once you have found your flag, hash it with sha256 and check if it equals:
 ef05b98c5c0b1a2b7e9312b9d4d87d3ceddfded2093a4b036d324df621aa1557
     * You may check this by typing "sha256 YOURFLAG" into duckduckgo.com
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Make make sure that you set your randomize_va_space value back to 2! 
-echo "2" > /proc/sys/kernel/randomize_va_space 
-You can always just reboot your computer as well and it will be restored.
-
-
-
