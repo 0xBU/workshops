@@ -28,12 +28,12 @@ One way to bypass this is through memcpy. If the stack buffer is overwritten dur
 You do not need to stop randomization of your address space, as many other tutorials on stack smashing suggest. Instead, we will be using gdb, which automatically turns off ASLR(address space layout randomization). This is important because, in order to jump in your code, you need to have a predictable place to jump, With randomization turned on, your jumping places are randomized, making this impossible. GDB automatically turns this off on execution of a program.
 
 You can disable ASLR system wide with:
-echo "0" > /proc/sys/kernel/randomize_va_space
+``echo "0" > /proc/sys/kernel/randomize_va_space``
 However, we strongly caution against this, as it makes all of your system programs vulnerable. 
 If you do do this, make sure you turn it off via rebooting your computer or running this command:
-echo "2" > /proc/sys/kernel/randomize_va_space
+``echo "2" > /proc/sys/kernel/randomize_va_space``
 Additionally, if you do not want to turn off randomization through GDB, you may use this command, although we are not sure if this works. 
-setarch `uname -m` -R /.EXECUTABLE_HERE
+``setarch `uname -m` -R /.EXECUTABLE_HERE``
 
 ### -g
 Tells gcc to generate debugging information such as function names, local variable names, and other things are normally thrown out as they are not necessary but make using gdb far easier.
@@ -41,9 +41,14 @@ Tells gcc to generate debugging information such as function names, local variab
 #### -m32
 Compiles the program for 32-bit machines, simply makes everything a little easier to work with.
 
-
 ### -o program 
 sets the compiled program name to "program"
+
+
+
+
+
+
 
 ## Getting Started
 1. Git clone this repository
