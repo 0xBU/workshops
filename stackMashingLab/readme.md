@@ -1,4 +1,4 @@
-# Welcome to the Stack Smashing Tutorial
+# Welcome to the Stack Smashing Workshop
 
 ## Background
 *DO NOT LOOK AT SOLUTION.PY UNTIL YOU HAVE COMPLETED THE STACK SMASHING, doing so is cheating*
