@@ -5,7 +5,7 @@
 solution.py is how we generated the many compiled c files and is not part of the solution.
 
 We compiled all the C files like so:
-gcc -fno-stack-protector -z execstack -g -m32 -o program program.c
+gcc -fno-stack-protector -z execstack -g -o program program.c
 
 
 ### -fno-stack-protector disables stack canaries 
@@ -38,8 +38,6 @@ Additionally, if you do not want to turn off randomization through GDB, you may 
 ### -g
 Tells gcc to generate debugging information such as function names, local variable names, and other things are normally thrown out as they are not necessary but make using gdb far easier.
 
-#### -m32
-Compiles the program for 32-bit machines, simply makes everything a little easier to work with.
 
 ### -o program 
 sets the compiled program name to "program"
